@@ -441,7 +441,7 @@ if st.session_state.analysis_history:
     # Create statistics
     df = pd.DataFrame(st.session_state.analysis_history)
     
-    col_stat1, col_stat2, col_stat3 = st.columns()
+    col_stat1, col_stat2, col_stat3 = st.columns(3)
     
     with col_stat1:
         st.metric("Total Analyses", len(df))
