@@ -1,0 +1,9 @@
+matplotlib
+seaborn
+altair
+pandas
+streamlit
+torch
+torchvision
+Pillow
+gradio
