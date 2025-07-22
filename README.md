@@ -3,7 +3,7 @@
 
 [![Hugging Face](https://img.shields.io/badge/HuggingFace-Model-yellow)](https://huggingface.co/spaces/PavanKumarD/Brain-Tumor-classification)
 [![Streamlit App](https://img.shields.io/badge/Streamlit-App-brightgreen)](https://braintumer.streamlit.app)
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)]
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 
 ---
 
