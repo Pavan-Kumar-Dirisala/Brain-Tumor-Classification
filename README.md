@@ -1,9 +1,9 @@
 
 # 🧠 Brain Tumor MRI Classification
 
-[![Hugging Face](https://img.shields.io/badge/HuggingFace-Model-yellow)](https://huggingface.co/PavanKumarD/Brain-Tumor-Classification)
-[![Streamlit App](https://img.shields.io/badge/Streamlit-App-brightgreen)]()
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)]()
+[![Hugging Face](https://img.shields.io/badge/HuggingFace-Model-yellow)](https://huggingface.co/spaces/PavanKumarD/Brain-Tumor-classification)
+[![Streamlit App](https://img.shields.io/badge/Streamlit-App-brightgreen)](https://braintumer.streamlit.app)
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)]
 
 ---
 
@@ -33,7 +33,6 @@ The solution combines a **custom-built CNN** (Convolutional Neural Network) and 
 - **Modeling:** Custom CNN, DenseNet121 (Transfer Learning)
 - **Data Visualization:** Matplotlib, Seaborn
 - **Deployment:** Hugging Face Spaces, Streamlit
-- **Dataset:** [Labeled MRI Brain Tumor Dataset (Roboflow)](https://universe.roboflow.com/ali-rostami/labeled-mri-brain-tumor-dataset)
 
 ---
 
@@ -61,18 +60,20 @@ The solution combines a **custom-built CNN** (Convolutional Neural Network) and 
 
 ## 🖼 **Visualizations**
 ### Class Distribution
-![Class Distribution](./assets/class_distribution.png)
+![alt text](./images/image.png)
+![alt text](./images/image-1.png)
+![alt text](./images/image-2.png)
 
 ### Confusion Matrix (Custom CNN)
-![Confusion Matrix](./assets/confusion_matrix.png)
+![alt text](./images/image-3.png)
 
 ---
 
 ## ⚙️ **How to Run Locally**
 ### 1. Clone this repository:
 ```bash
-git clone https://github.com/<your-username>/brain-tumor-mri-classification.git
-cd brain-tumor-mri-classification
+git clone https://github.com/Pavan-Kumar-Dirisala/Brain-Tumor-Classification.git
+cd Brain-Tumor-Classification
 ````
 
 ### 2. Install dependencies:
@@ -91,7 +92,7 @@ streamlit run app.py
 
 ## 🌐 **Live Demo**
 
-🚀 **Streamlit App:** [Click here to try](https://huggingface.co/spaces/PavanKumarD/Brain-Tumor-Classification)
+🚀 **Streamlit App:** [Click here to try](https://braintumer.streamlit.app)
 
 ---
 
@@ -112,25 +113,13 @@ Brain-Tumor-Classification/
 
 ---
 
-## 🙌 **Acknowledgements**
 
-* Dataset: [Roboflow Brain Tumor MRI Dataset](https://universe.roboflow.com/ali-rostami/labeled-mri-brain-tumor-dataset)
-* Frameworks: [PyTorch](https://pytorch.org/), [Streamlit](https://streamlit.io/)
-* Deployment: [Hugging Face Spaces](https://huggingface.co/spaces)
-
----
 
 ## 👨‍💻 **Author**
 
 **Pavan Kumar Dirisala**
-[GitHub](https://github.com/PavanKumarD) | [Portfolio](https://pavan-kumar-dirisala.github.io/Portfolio/) | [LinkedIn](https://www.linkedin.com/in/pavankumar-dirisala/)
+[GitHub](https://github.com/Pavan-Kumar-Dirisala) | [Portfolio](https://pavan-kumar-dirisala.github.io/Portfolio/) | [LinkedIn](https://www.linkedin.com/in/pavan-kumar-dirisala-523611281/)
 
----
 
-```
 
----
-
-### **Next Step**
-Would you like me to **add a `requirements.txt` file for your repo** (with all required libraries for Streamlit, Hugging Face, and PyTorch)?
 ```
